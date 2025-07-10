@@ -61,7 +61,13 @@ nav {
     border-radius: 10px;
     background-color: #4E47FF;
     border: 0;
+    transform: all 0.10s ease;
 
+}
+
+.nav-button:hover {
+    background-color: orange;
+    color: black;
 }
 
 /* nav start  */
@@ -74,6 +80,10 @@ header {
     background-position: center center;
     background-size: cover;
 
+}
+
+.logo-span {
+    color: orange;
 }
 
 
