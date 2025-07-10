@@ -4,6 +4,14 @@
     font-style: normal;
 }
 
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -92,8 +100,6 @@ header {
     border-radius: 10px;
     background-color: #4E47FF;
     border: 0;
-
-
 }
 
 /* banner section end  */
@@ -118,8 +124,58 @@ header {
     font-weight: 400;
     line-height: 30px;
     color: rgba(37, 36, 50, 0.50);
+    max-width: 517px;
+    padding-bottom: 23px;
 }
 
-.action-image{
+.action-image {
     border-radius: 48px;
+}
+
+.action-button {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 24px;
+    padding: 10px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border: 0;
+}
+
+/* action section end  */
+
+/* touch section start  */
+
+.touch {
+    margin: 0 200px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+    padding: 50px 120px;
+}
+
+.touch-heading {
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.counter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.counter-heading {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.counter-info {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-weight: 400;
 }
