@@ -145,16 +145,16 @@ header {
 
 /* action section end  */
 
-/* touch section start  */
+/* productive section start  */
 
-.touch {
-    margin: 0 200px;
+.productive {
+    margin: 0 200px 50px 200px;
     border-radius: 24px;
     background: rgba(78, 71, 255, 0.10);
     padding: 50px 120px;
 }
 
-.touch-heading {
+.productive-heading {
     font-size: 42px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -166,7 +166,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 250px;
 }
 
 .counter-heading {
