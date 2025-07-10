@@ -22,6 +22,10 @@ body {
     background-color: #F5F8FF;
 }
 
+.Section-margin {
+    margin: 0 300px;
+}
+
 /* color class  */
 .text-primary {
     color: #4E47FF;
@@ -34,7 +38,6 @@ body {
 /* nav start  */
 
 nav {
-    margin: 0px 200px;
     padding: 20px 0;
     display: flex;
     align-items: center;
@@ -76,7 +79,6 @@ header {
 
 .banner {
     padding: 200px 0;
-    margin: 0 200px;
     display: flex;
     flex-direction: column;
 
@@ -112,7 +114,6 @@ header {
 /* action section start  */
 .action {
     padding: 100px 0;
-    margin: 0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,7 +149,6 @@ header {
 /* productive section start  */
 
 .productive {
-    margin: 0 200px 50px 200px;
     border-radius: 24px;
     background: rgba(78, 71, 255, 0.10);
     padding: 50px 120px;
@@ -186,7 +186,6 @@ header {
 /* feedback section start  */
 .feedback {
     padding: 100px 0;
-    margin: 0 200px;
 }
 
 .feedback-heading {
@@ -252,4 +251,86 @@ header {
 
 .profile-image img {
     border-radius: 9999px;
+}
+
+/* feedback section end  */
+
+/* touch section start  */
+.touch {
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.touch-heading {
+    color: #000;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 116px;
+    max-width: 528px;
+    width: 60%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 40%;
+
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 20px 32px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+textarea {
+    border: 0;
+    max-height: 135px;
+    max-width: 100%;
+    height: 200px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    padding: 20px 0 0 20px;
+}
+
+textarea::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+textarea:focus {
+    outline: 0;
 }
