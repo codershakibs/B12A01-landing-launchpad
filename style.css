@@ -15,6 +15,11 @@
 * {
     margin: 0;
     padding: 0;
+
+}
+
+body {
+    background-color: #F5F8FF;
 }
 
 /* color class  */
@@ -179,3 +184,72 @@ header {
 /* productive section start  */
 
 /* feedback section start  */
+.feedback {
+    padding: 100px 0;
+    margin: 0 200px;
+}
+
+.feedback-heading {
+    padding-bottom: 40px;
+}
+
+.review-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.reviews {
+    padding: 24px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.review-stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 24px;
+}
+
+.review-heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+    padding-bottom: 24px;
+
+}
+
+.review-info {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.review-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #757575;
+
+}
+
+.profile-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #b3b3b36e;
+}
+
+.profile-image img {
+    border-radius: 9999px;
+}
