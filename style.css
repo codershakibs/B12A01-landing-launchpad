@@ -4,6 +4,11 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* color class  */
 .text-primary {
     color: #4E47FF;
@@ -17,6 +22,7 @@
 
 nav {
     margin: 0px 200px;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,4 +94,32 @@ header {
     border: 0;
 
 
+}
+
+/* banner section end  */
+
+/* action section start  */
+.action {
+    padding: 100px 0;
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-heading {
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.action-details {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(37, 36, 50, 0.50);
+}
+
+.action-image{
+    border-radius: 48px;
 }
