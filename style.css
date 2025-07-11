@@ -146,6 +146,11 @@ header {
     align-items: center;
 }
 
+.action-heading {
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+}
 
 .action-details {
     font-size: 24px;
